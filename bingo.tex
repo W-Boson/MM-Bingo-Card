@@ -73,7 +73,7 @@
 				\pgfmathtruncatemacro{\value}{\col+\NumOfColumns*(\row-1)}
 				\pgfmathsetmacro{\ColRowProduce}{\col*\row}
 				\IfEq{\ColRowProduce}{9}{% If is center square
-					\node [] at ($(\col,-\row)-(0.5,0.5)$) {I concede!};
+					\node [] at ($(\col,-\row)-(0.5,0.5)$) {\textbf{I CONCEDE!}};
 				}{
 					\node [Square] at ($(\col,-\row)-(0.5,0.5)$) {\large \NodeText};
 				}
@@ -96,5 +96,75 @@
 				}
 			}
 		}    
-	\end{tikzpicture}                 
+	\end{tikzpicture}    
+
+	\setItems
+
+\section*{Mountain Miniature Gaming - Bingo Card!}
+\begin{tikzpicture}[draw=black, thick, x=\Size,y=\Size]
+	\foreach \row in \Sequence{%
+		\foreach \col in \Sequence {%
+			\pgfmathtruncatemacro{\value}{\col+\NumOfColumns*(\row-1)}
+			\pgfmathsetmacro{\ColRowProduce}{\col*\row}
+			\IfEq{\ColRowProduce}{9}{% If is center square
+				\node [] at ($(\col,-\row)-(0.5,0.5)$) {\textbf{I CONCEDE!}};
+			}{
+				\node [Square] at ($(\col,-\row)-(0.5,0.5)$) {\large \NodeText};
+			}
+		}
+	}    
+\end{tikzpicture}     
+
+	\setItems
+
+\section*{Mountain Miniature Gaming - Bingo Card!}
+\begin{tikzpicture}[draw=black, thick, x=\Size,y=\Size]
+	\foreach \row in \Sequence{%
+		\foreach \col in \Sequence {%
+			\pgfmathtruncatemacro{\value}{\col+\NumOfColumns*(\row-1)}
+			\pgfmathsetmacro{\ColRowProduce}{\col*\row}
+			\IfEq{\ColRowProduce}{9}{% If is center square
+				\node [] at ($(\col,-\row)-(0.5,0.5)$) {\textbf{I CONCEDE!}};
+			}{
+				\node [Square] at ($(\col,-\row)-(0.5,0.5)$) {\large \NodeText};
+			}
+		}
+	}    
+\end{tikzpicture}     
+
+	\setItems
+
+\section*{Mountain Miniature Gaming - Bingo Card!}
+\begin{tikzpicture}[draw=black, thick, x=\Size,y=\Size]
+	\foreach \row in \Sequence{%
+		\foreach \col in \Sequence {%
+			\pgfmathtruncatemacro{\value}{\col+\NumOfColumns*(\row-1)}
+			\pgfmathsetmacro{\ColRowProduce}{\col*\row}
+			\IfEq{\ColRowProduce}{9}{% If is center square
+				\node [] at ($(\col,-\row)-(0.5,0.5)$) {\textbf{I CONCEDE!}};
+			}{
+				\node [Square] at ($(\col,-\row)-(0.5,0.5)$) {\large \NodeText};
+			}
+		}
+	}    
+\end{tikzpicture}     
+
+	\setItems
+
+\section*{Mountain Miniature Gaming - Bingo Card!}
+\begin{tikzpicture}[draw=black, thick, x=\Size,y=\Size]
+	\foreach \row in \Sequence{%
+		\foreach \col in \Sequence {%
+			\pgfmathtruncatemacro{\value}{\col+\NumOfColumns*(\row-1)}
+			\pgfmathsetmacro{\ColRowProduce}{\col*\row}
+			\IfEq{\ColRowProduce}{9}{% If is center square
+				\node [] at ($(\col,-\row)-(0.5,0.5)$) {\textbf{I CONCEDE!}};
+			}{
+				\node [Square] at ($(\col,-\row)-(0.5,0.5)$) {\large \NodeText};
+			}
+		}
+	}    
+\end{tikzpicture}     
+
+             
 \end{document}
