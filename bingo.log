@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.15)  2 FEB 2022 01:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.15)  4 FEB 2022 17:51
 entering extended mode
 **./bingo.tex
 (bingo.tex
@@ -409,105 +409,2186 @@ File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 e\xparse-2020-10-01.sty
 (C:\Users\Frederik\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xpars
 e\xparse-generic.tex)))
+(C:\Users\Frederik\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\Frederik\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.
+sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+
+(C:\Users\Frederik\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.
+sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\Users\Frederik\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.s
+ty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks28
+\ex@=\dimen191
+))
+(C:\Users\Frederik\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.s
+ty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen192
+)
+(C:\Users\Frederik\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.s
+ty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count277
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count278
+\leftroot@=\count279
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count280
+\DOTSCASE@=\count281
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box59
+\strutbox@=\box60
+\big@size=\dimen193
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count282
+\c@MaxMatrixCols=\count283
+\dotsspace@=\muskip16
+\c@parentequation=\count284
+\dspbrk@lvl=\count285
+\tag@help=\toks29
+\row@=\count286
+\column@=\count287
+\maxfields@=\count288
+\andhelp@=\toks30
+\eqnshift@=\dimen194
+\alignsep@=\dimen195
+\tagshift@=\dimen196
+\tagwidth@=\dimen197
+\totwidth@=\dimen198
+\lineht@=\dimen199
+\@envbody=\toks31
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks32
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
 (C:\Users\Frederik\AppData\Local\Programs\MiKTeX 2.9\tex/generic/random\random.
 tex
-\randomi=\count277
-\ranval=\count278
+\randomi=\count289
+\ranval=\count290
 )
-\randomnum=\count279
-\l_tmp_int=\count280
+\randomnum=\count291
+\l_tmp_int=\count292
  (bingo.aux)
 \openout1 = `bingo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
 
 (C:\Users\Frederik\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp
 -pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count281
-\scratchdimen=\dimen191
-\scratchbox=\box59
-\nofMPsegments=\count282
-\nofMParguments=\count283
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count284
-\MPscratchDim=\dimen192
-\MPnumerator=\count285
-\makeMPintoPDFobject=\count286
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count293
+\scratchdimen=\dimen256
+\scratchbox=\box61
+\nofMPsegments=\count294
+\nofMParguments=\count295
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count296
+\MPscratchDim=\dimen257
+\MPnumerator=\count297
+\makeMPintoPDFobject=\count298
+\everyMPtoPDFconversion=\toks34
 )
 (C:\Users\Frederik\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\eps
 topdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(C:\Users\Frederik\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\infw
+arerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(C:\Users\Frederik\AppData\Local\Programs\MiKTeX 2.9\tex/latex/grfext\grfext.st
+y
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(C:\Users\Frederik\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvdefinekeys\k
+vdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(C:\Users\Frederik\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvopti
+ons.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(C:\Users\Frederik\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\ltxcmd
+s.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\Frederik\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\kvse
+tkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(C:\Users\Frederik\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pdftexcmds\pdf
+texcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\Frederik\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.st
+y
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (C:\Users\Frederik\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\epstopd
 f-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-)) Randomizer initialized to 112251506.
-Overfull \hbox (118.15723pt too wide) in paragraph at lines 82--83
-[] 
+))
+\c@int=\count299
+ Randomizer initialized to 1255633380.
+Overfull \hbox (123.15724pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 0[]
  []
 
 
-Overfull \hbox (118.15723pt too wide) in paragraph at lines 99--100
-[] 
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+
+Overfull \hbox (123.15724pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 1[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
  []
 
 [1
 
 {C:/Users/Frederik/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (118.15723pt too wide) in paragraph at lines 116--117
-[] 
+Overfull \hbox (123.15724pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 2[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
  []
 
 [2]
-Overfull \hbox (118.15723pt too wide) in paragraph at lines 133--134
-[] 
+Overfull \hbox (123.15724pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 3[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
  []
 
 [3]
-Overfull \hbox (118.15723pt too wide) in paragraph at lines 150--151
-[] 
+Overfull \hbox (123.15724pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 4[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
  []
 
 [4]
-Overfull \hbox (118.15723pt too wide) in paragraph at lines 167--168
-[] 
+Overfull \hbox (123.15724pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 5[]
  []
 
-[5] [6] (bingo.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[5]
+Overfull \hbox (123.15724pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 6[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[6]
+Overfull \hbox (123.15724pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 7[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[7]
+Overfull \hbox (123.15724pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 8[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[8]
+Overfull \hbox (123.15724pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 9[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[9]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 10[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[10]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 11[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[11]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 12[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[12]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 13[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[13]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 14[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[14]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 15[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[15]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 16[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[16]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 17[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[17]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 18[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[18]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 19[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[19]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 20[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[20]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 21[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[21]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 22[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[22]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 23[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[23]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 24[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[24]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 25[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[25]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 26[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[26]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 27[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[27]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 28[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[28]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 29[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[29]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 30[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[30]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 31[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[31]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 32[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[32]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 33[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[33]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 34[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[34]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 35[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[35]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 36[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[36]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 37[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[37]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 38[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[38]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 39[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[39]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 40[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[40]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 41[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[41]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 42[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[42]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 43[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[43]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 44[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[44]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 45[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[45]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 46[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[46]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 47[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[47]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 48[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[48]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 49[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[49]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 50[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[50]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 51[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[51]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 52[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[52]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 53[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[53]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 54[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[54]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 55[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[55]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 56[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[56]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 57[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[57]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 58[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[58]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 59[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[59]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 60[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[60]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 61[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[61]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 62[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[62]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 63[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[63]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 64[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[64]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 65[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[65]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 66[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[66]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 67[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[67]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 68[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[68]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 69[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[69]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 70[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[70]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 71[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[71]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 72[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[72]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 73[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[73]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 74[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[74]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 75[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[75]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 76[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[76]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 77[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[77]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 78[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[78]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 79[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[79]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 80[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[80]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 81[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[81]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 82[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[82]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 83[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[83]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 84[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[84]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 85[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[85]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 86[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[86]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 87[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[87]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 88[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[88]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 89[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[89]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 90[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[90]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 91[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[91]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 92[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[92]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 93[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[93]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 94[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[94]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 95[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[95]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 96[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[96]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 97[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[97]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 98[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[98]
+Overfull \hbox (128.15726pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 99[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[99]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 100[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[100]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 101[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[101]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 102[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[102]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 103[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[103]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 104[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[104]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 105[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[105]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 106[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[106]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 107[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[107]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 108[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[108]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 109[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[109]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 110[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[110]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 111[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[111]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 112[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[112]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 113[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[113]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 114[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[114]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 115[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[115]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 116[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[116]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 117[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[117]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 118[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[118]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 119[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[119]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 120[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[120]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 121[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[121]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 122[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[122]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 123[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[123]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 124[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[124]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 125[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[125]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 126[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[126]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 127[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[127]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 128[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[128]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 129[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[129]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 130[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[130]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 131[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[131]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 132[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[132]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 133[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[133]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 134[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[134]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 135[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[135]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 136[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[136]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 137[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[137]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 138[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[138]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 139[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[139]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 140[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[140]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 141[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[141]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 142[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[142]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 143[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[143]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 144[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[144]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 145[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[145]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 146[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[146]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 147[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[147]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 148[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[148]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 149[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[149]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 150[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[150]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 151[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[151]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 152[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[152]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 153[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[153]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 154[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[154]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 155[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[155]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 156[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[156]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 157[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[157]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 158[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[158]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 159[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[159]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 160[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[160]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 161[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[161]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 162[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[162]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 163[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[163]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 164[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[164]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 165[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[165]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 166[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[166]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 167[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[167]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 168[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[168]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 169[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[169]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 170[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[170]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 171[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[171]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 172[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[172]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 173[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[173]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 174[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[174]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 175[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[175]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 176[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[176]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 177[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[177]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 178[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[178]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 179[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[179]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 180[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[180]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 181[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[181]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 182[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[182]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 183[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[183]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 184[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[184]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 185[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[185]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 186[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[186]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 187[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[187]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 188[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[188]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 189[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[189]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 190[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[190]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 191[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[191]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 192[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[192]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 193[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[193]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 194[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[194]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 195[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[195]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 196[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[196]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 197[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[197]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 198[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+[198]
+Overfull \hbox (133.15727pt too wide) in paragraph at lines 92--93
+\OT1/cmr/m/n/10 199[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+[199] [200] (bingo.aux) ) 
 Here is how much of TeX's memory you used:
- 12068 strings out of 479139
- 253629 string characters out of 2849154
- 534485 words of memory out of 3000000
- 29503 multiletter control sequences out of 15000+600000
+ 13259 strings out of 479139
+ 271104 string characters out of 2849154
+ 555510 words of memory out of 3000000
+ 30643 multiletter control sequences out of 15000+600000
  404641 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,6n,104p,584b,749s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/Users/Frederik/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Frederik/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Frederik/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/F
-rederik/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.
-pfb>
-Output written on bingo.pdf (6 pages, 61053 bytes).
+ 100i,7n,104p,672b,749s stack positions out of 5000i,500n,10000p,200000b,80000s
+<C:/Users/Frederik/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Frederik/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Frederik/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Use
+rs/Frederik/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+r12.pfb>
+Output written on bingo.pdf (200 pages, 499156 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
+ 662 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

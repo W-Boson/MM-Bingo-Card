@@ -4,6 +4,8 @@
 \usepackage{tikz}
 \usetikzlibrary{calc}
 \usepackage{xparse}
+\usepackage{ifthen}
+\usepackage{amsmath}
 
 \input{random.tex}
 \newcount\randomnum
@@ -65,8 +67,13 @@
 	
 	\myItems{Cullen get's salty; Luka apologizes; Steve explains the rules wrong; Steve makes a 10+ inch charge; Cullen misfires; Steve cheats as a joke; Combat Wombat!; Nanananana-\\nanananana! Rock Lobster!; forgetting the turn counter; chair of dispair; jonathan kelly deletes his own message; Distraction!; respect my army!;luka comes to late; Gurrrr!; Zaammbies or Skalitaans; Hard Body!; Bosscrows; naming the giant; steve landing under the table; forgetting to vanguard; Like, subscribe and ring that bell for Algorithmo; Happy Birthday Steve!; cyberhunter; presenting the merch; audio overdrive; forgetting animosity; Missreading a donation!; Miscast!}
 	
+	\newcounter{int}
+	\setcounter{int}{0}
+	\loop
+	
 	\setItems
 	\section*{Mountain Miniature Gaming - Bingo Card!}
+	\theint
 	\begin{tikzpicture}[draw=black, thick, x=\Size,y=\Size]
 		\foreach \row in \Sequence{%
 			\foreach \col in \Sequence {%
@@ -80,91 +87,9 @@
 			}
 		}    
 	\end{tikzpicture}
+	\addtocounter{int}{1}
+	\ifnum \value{int}<200
+	\repeat
 	
-	\setItems
-
-	\section*{Mountain Miniature Gaming - Bingo Card!}
-	\begin{tikzpicture}[draw=black, thick, x=\Size,y=\Size]
-		\foreach \row in \Sequence{%
-			\foreach \col in \Sequence {%
-				\pgfmathtruncatemacro{\value}{\col+\NumOfColumns*(\row-1)}
-				\pgfmathsetmacro{\ColRowProduce}{\col*\row}
-				\IfEq{\ColRowProduce}{9}{% If is center square
-					\node [] at ($(\col,-\row)-(0.5,0.5)$) {\textbf{I CONCEDE!}};
-				}{
-					\node [Square] at ($(\col,-\row)-(0.5,0.5)$) {\large \NodeText};
-				}
-			}
-		}    
-	\end{tikzpicture}    
-
-	\setItems
-
-\section*{Mountain Miniature Gaming - Bingo Card!}
-\begin{tikzpicture}[draw=black, thick, x=\Size,y=\Size]
-	\foreach \row in \Sequence{%
-		\foreach \col in \Sequence {%
-			\pgfmathtruncatemacro{\value}{\col+\NumOfColumns*(\row-1)}
-			\pgfmathsetmacro{\ColRowProduce}{\col*\row}
-			\IfEq{\ColRowProduce}{9}{% If is center square
-				\node [] at ($(\col,-\row)-(0.5,0.5)$) {\textbf{I CONCEDE!}};
-			}{
-				\node [Square] at ($(\col,-\row)-(0.5,0.5)$) {\large \NodeText};
-			}
-		}
-	}    
-\end{tikzpicture}     
-
-	\setItems
-
-\section*{Mountain Miniature Gaming - Bingo Card!}
-\begin{tikzpicture}[draw=black, thick, x=\Size,y=\Size]
-	\foreach \row in \Sequence{%
-		\foreach \col in \Sequence {%
-			\pgfmathtruncatemacro{\value}{\col+\NumOfColumns*(\row-1)}
-			\pgfmathsetmacro{\ColRowProduce}{\col*\row}
-			\IfEq{\ColRowProduce}{9}{% If is center square
-				\node [] at ($(\col,-\row)-(0.5,0.5)$) {\textbf{I CONCEDE!}};
-			}{
-				\node [Square] at ($(\col,-\row)-(0.5,0.5)$) {\large \NodeText};
-			}
-		}
-	}    
-\end{tikzpicture}     
-
-	\setItems
-
-\section*{Mountain Miniature Gaming - Bingo Card!}
-\begin{tikzpicture}[draw=black, thick, x=\Size,y=\Size]
-	\foreach \row in \Sequence{%
-		\foreach \col in \Sequence {%
-			\pgfmathtruncatemacro{\value}{\col+\NumOfColumns*(\row-1)}
-			\pgfmathsetmacro{\ColRowProduce}{\col*\row}
-			\IfEq{\ColRowProduce}{9}{% If is center square
-				\node [] at ($(\col,-\row)-(0.5,0.5)$) {\textbf{I CONCEDE!}};
-			}{
-				\node [Square] at ($(\col,-\row)-(0.5,0.5)$) {\large \NodeText};
-			}
-		}
-	}    
-\end{tikzpicture}     
-
-	\setItems
-
-\section*{Mountain Miniature Gaming - Bingo Card!}
-\begin{tikzpicture}[draw=black, thick, x=\Size,y=\Size]
-	\foreach \row in \Sequence{%
-		\foreach \col in \Sequence {%
-			\pgfmathtruncatemacro{\value}{\col+\NumOfColumns*(\row-1)}
-			\pgfmathsetmacro{\ColRowProduce}{\col*\row}
-			\IfEq{\ColRowProduce}{9}{% If is center square
-				\node [] at ($(\col,-\row)-(0.5,0.5)$) {\textbf{I CONCEDE!}};
-			}{
-				\node [Square] at ($(\col,-\row)-(0.5,0.5)$) {\large \NodeText};
-			}
-		}
-	}    
-\end{tikzpicture}     
-
-             
+	            
 \end{document}
